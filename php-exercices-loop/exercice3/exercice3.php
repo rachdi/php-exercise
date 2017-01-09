@@ -5,8 +5,8 @@ $j=$i*$k;
 while ( $i>= 10) {
 	$j=$i--*$k;
 
-	echo "i=$i<br>$j</br>";
-// echo "$i++";
+	echo "si i=$i alors j=$j</br>";
+
 
 }
 ?>
