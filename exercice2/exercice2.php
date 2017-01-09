@@ -4,7 +4,9 @@ $k=3;
 $j=$i*$k;
 while ( $i< 20) {
 	$j=$i++*$k;
-	echo "$j</br>";
-	
+
+	echo "i=$i<br>$j</br>";
+	// echo "$i++";
+
 }
 ?>
