@@ -5,7 +5,7 @@ $j=$i*$k;
 while ( $i< 20) {
 	$j=$i++*$k;
 
-	echo "i=$i<br>$j</br>";
+	echo "quand i=$i on'a j=$j</br>";
 	// echo "$i++";
 
 }
