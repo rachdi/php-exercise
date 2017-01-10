@@ -11,9 +11,10 @@
 			<option  name="femme" value="Femme">femme</option>
 		</select>
 
-		<label for="age"></label>
+		<label for="age">Mettez votre Age</label>
 		<input id="age" name="age" type="nubmer"/>
 
 		<input type="submit" value="Envoyer"/>
-	</body>
-	</html>
+	</form>
+</body>
+</html>

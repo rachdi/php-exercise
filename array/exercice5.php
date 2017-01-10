@@ -1,7 +1,7 @@
 <?php 
 $HautFr=array(
-	"Lille"=>1,
-	"Amiens"=>2,
+	59=>"Lille",
+	"Amiens"=>80,
 	"Roubaix"=>3,
 	"Tourcoing"=>4,
 	"Dunkerque"=>5,
@@ -23,5 +23,6 @@ $HautFr=array(
 	"Lens"=>21,
 	
 	);
+echo $HautFr["59"];
 
-	?>
+?>
