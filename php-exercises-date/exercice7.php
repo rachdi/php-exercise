@@ -1,7 +1,10 @@
 <?php 
 
-$jour20 = date("d")+20;
-echo date("$jour20-m-y");
+<?php
+
+echo date('d/m/Y', time()+20*24*3600); 
+
+?>
 
 
 ?>
