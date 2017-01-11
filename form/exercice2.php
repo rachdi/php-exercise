@@ -9,9 +9,9 @@
 <body>
 	<form action="user.php" method="post">
 		<label for="nom">Nom</label>
-		<input type="text" name="user" id="nom"><br>
+		<input type="text" name="nom" id="nom"><br>
 		<label for="prenom">Prenom</label>
-		<input type="text" name="user" id="prenom"><br>
+		<input type="text" name="prenom" id="prenom"><br>
 		<input type="submit" value="entrez">
 
 

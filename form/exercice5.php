@@ -1,0 +1,31 @@
+<?php 
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.php" method="post">
+		<select name="civiliter" id="civiliter">
+			<option value="madame">Mme</option>
+			<option value="monsieur">Mr</option>
+
+		</select>
+		<label for="nom">Nom</label>
+		<input type="text" name="nom" id="nom"/><br>
+		<label for="prenom">Prenom</label>
+		<input type="text" name="prenom" id="prenom"/><br>
+
+
+		<input type="submit" value="envoyer">
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>
