@@ -20,7 +20,7 @@ $nom_jour= array(
 for($i=1; $i<=$number; $i++){
 	foreach ($nom_jour as $key => $value) {
 		$n="N";
-		$njour=date("$N");	
+		$njour=date($);	
 		echo "<table><td>$value/td>";
 		echo "<th>$i</th></table>";
 	}
