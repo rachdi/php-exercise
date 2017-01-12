@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php if(empty($_POST)){
-		
+
 
 
 		?>
@@ -22,7 +22,7 @@
 			<label for="prenom">Prenom</label>
 			<input type="text" name="prenom" id="prenom"/><br>
 
-
+			<input type="file" name="file" />
 
 
 			<input type="submit" value="envoyer">
@@ -43,6 +43,9 @@
 
 	if(isset($_POST['prenom'])){
 		echo $_POST['prenom'].'<br />';
+	}
+	if(isset($_POST['file'])){
+		echo $_POST['file'].'<br />';
 	}
 
 
