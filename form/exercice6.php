@@ -18,11 +18,11 @@
 
 			</select>
 			<label for="nom">Nom</label>
-			<input type="text" name="nom" id="nom"/><br>
+			<input type="text" required="required" name="nom" id="nom"/><br>
 			<label for="prenom">Prenom</label>
-			<input type="text" name="prenom" id="prenom"/><br>
+			<input type="text" required="required" name="prenom" id="prenom"/><br>
 
-			<input type="file" name="file" />
+			<input type="file" required="required" name="file" />
 
 
 			<input type="submit" value="envoyer">
