@@ -7,10 +7,14 @@ include 'calender.php';
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
 	<title>calendrier</title>
 </head>
 <body>
-	<form action="calender.php" method="post">
+	<?php 
+
+	?>
+	<form action="" method="post">
 		<select name="mois" id="calendrier">
 			<option value="">choisissez un mois</option>
 			<option value="01">janvier</option>
@@ -42,7 +46,7 @@ include 'calender.php';
 		<input type="submit" value="regarder la calendrier"/>
 
 	</form>
-
+	
 
 </body>
 </html>
